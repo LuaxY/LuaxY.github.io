@@ -7,6 +7,7 @@ div, body {
     box-sizing: border-box;
     color: #fff;
     font-family: verdana, arial, sans-serif;
+    position: relative;
 }
 
 body {
@@ -61,11 +62,11 @@ body {
     border-left: 2px solid #fff;
     font-size: 20px;
     font-weight: bold;
-    padding: 0 10px;
+    padding: 0 10px 0 14px;
 }
 
 #menu a {
-    text-shadow: 2px 2px 0px #424242;
+    text-shadow: 2px 2px 0px #000;
     text-decoration: none;
 }
 
@@ -85,4 +86,5 @@ body {
 
 #content p {
     margin-top: 0;
+    text-align: justify;
 }
