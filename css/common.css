@@ -17,12 +17,12 @@ body {
 
 @font-face {
     font-family: 'BebasNeue';
-    src: url('fonts/BebasNeue.otf');
+    src: url('../fonts/BebasNeue.otf');
 }
 
 @font-face {
     font-family: 'Oxygen';
-    src: url('fonts/Oxygen.otf');
+    src: url('../fonts/Oxygen.otf');
 }
 
 #header,
@@ -59,7 +59,7 @@ body {
 #header #logo {
     width: 333px;
     height: 200px;
-    background: url('LuaxDev.png') no-repeat;
+    background: url('../imgs/LuaxDev.png') no-repeat;
     background-size: 333px 200px;
 }
 

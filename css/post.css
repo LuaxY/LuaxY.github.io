@@ -4,7 +4,6 @@
     float: left;
     margin: 5px;
     width: 385px;
-    /*border: 1px solid #000;*/
     transition: box-shadow linear 0.2s;
 }
 
@@ -16,6 +15,10 @@
     width: 100%;
     height: 150px;
     overflow: hidden;
+}
+
+.post .post-image img {
+    width: 100%;
 }
 
 .post .post-title,
@@ -61,7 +64,7 @@
 
 .post .post-preview,
 .post .post-ellipsis {
-    border-color: #171717;
+    border-color: #404040;
 }
 
 .post .post-preview p {
@@ -81,17 +84,6 @@
     padding: 5px;
     border-right: 2px solid #454545;
 }
-
-/*.post .post-comments svg {
-    width: 13px;
-    height: 13px;
-    margin-right: 2px;
-    display: inline-block;
-}
-
-.post .post-comments svg path {
-    fill: #fff;
-}*/
 
 .post .post-more {
     float: right;
