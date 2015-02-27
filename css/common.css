@@ -39,7 +39,7 @@ a:hover {
 
 /* SCREEN */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 815px) {
     #header,
     #menu,
     #footer {
@@ -75,7 +75,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 814px) {
     #header,
     #menu,
     #footer {
