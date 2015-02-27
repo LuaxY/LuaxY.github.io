@@ -111,12 +111,12 @@ and (max-device-width : 480px) {
     #header,
     #menu,
     #footer {
-        width: 320px;
+        width: 100%;
         overflow: hidden;
     }
 
     .container {
-        width: 320px;
+        width: 100%;
     }
 
     #menu li {
