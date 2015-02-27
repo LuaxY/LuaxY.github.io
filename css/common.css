@@ -91,6 +91,31 @@ a:hover {
     }
 }
 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    .container {
+        width: 100%;
+    }
+
+    #menu li {
+        padding: 0 10px;
+    }
+
+    #menu a {
+        font-size: 26px;
+    }
+
+    #content {
+        padding: 0;
+    }
+
+    .post {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 380px) {
     #menu li {
         padding: 0 5px;
