@@ -6,7 +6,8 @@ div, body {
 * {
     box-sizing: border-box;
     color: #000;
-    font-family: verdana, arial, sans-serif;
+    font-family: Oxygen, verdana, arial, sans-serif;
+    line-height: 22px;
     position: relative;
 }
 
@@ -96,14 +97,14 @@ body {
 /* CONTENT */
 
 #content {
-    padding: 10px;
+    padding: 5px;
+    overflow: auto;
 }
 
 #content p {
     margin: 0 0 20px 0;
     text-align: justify;
-    font-family: Oxygen, verdana, arial, sans-serif;
-    line-height: 22px;
+    line-height: 20px;
 }
 
 #content p:last-child {
