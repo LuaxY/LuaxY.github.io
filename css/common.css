@@ -15,6 +15,15 @@ body {
     background-color: #A8A8A8;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #07FEEC;
+}
+
 @font-face {
     font-family: 'BebasNeue';
     src: url('../fonts/BebasNeue.otf');
@@ -79,20 +88,14 @@ body {
 
 #menu li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 #menu a {
-    color: #fff;
     font-family: BebasNeue, sans-serif;
     font-size: 26px;
     font-weight: bold;
     text-shadow: 2px 2px 0px #000;
-    text-decoration: none;
-}
-
-#menu a:hover {
-    color: #07FEEC;
 }
 
 /* CONTENT */
